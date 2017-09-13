@@ -1,0 +1,166 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BalanceFactor	ttree.h	/^int BalanceFactor(TTREENODE *pNode) const  $/;"	f	class:stx::CTtree
+BalanceLeftBranch	ttree.h	/^int BalanceLeftBranch(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+BalanceRightBranch	ttree.h	/^int BalanceRightBranch(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+CTtree	ttree.h	/^CTtree()$/;"	f	class:stx::CTtree
+CTtree	ttree.h	/^class CTtree{$/;"	c	namespace:stx
+Clear	ttree.h	/^void Clear()   $/;"	f	class:stx::CTtree
+DM_META	ttree.h	/^}DM_META;$/;"	t	namespace:stx	typeref:struct:stx::meta_node
+Delete	ttree.h	/^void Delete(char *key)  $/;"	f	class:stx::CTtree
+Depth	ttree.h	/^int Depth()  $/;"	f	class:stx::CTtree
+DoubleRotateLeft	ttree.h	/^TTREENODE *DoubleRotateLeft(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+DoubleRotateRight	ttree.h	/^TTREENODE *DoubleRotateRight(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+Find	ttree.h	/^char *Find(const char *key)  $/;"	f	class:stx::CTtree
+FindMax	ttree.h	/^TTREENODE* FindMax(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+FindMin	ttree.h	/^TTREENODE* FindMin(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+FreeNode	ttree.h	/^void FreeNode(TTREENODE *pNode)$/;"	f	class:stx::CTtree
+GetMaxNode	ttree.h	/^const TTREENODE *GetMaxNode() \/\/P  $/;"	f	class:stx::CTtree
+GetMinNode	ttree.h	/^const TTREENODE *GetMinNode()  \/\/P$/;"	f	class:stx::CTtree
+HashMap	speedtest.cc	/^    typedef TestClass<__gnu_cxx::hash_multimap<unsigned int, unsigned int> > HashMap;$/;"	t	class:TestFactory_Map	file:
+HashSet	speedtest.cc	/^    typedef TestClass<__gnu_cxx::hash_multiset<unsigned int> > HashSet;$/;"	t	class:TestFactory_Set	file:
+ITEM_NUM	ttree.h	45;"	d
+InOrder	ttree.h	/^    InOrder,  $/;"	e	enum:stx::TraverseOrder
+InOrderTraverse	ttree.h	/^void InOrderTraverse(TTREENODE *pNode) const  $/;"	f	class:stx::CTtree
+Insert	ttree.h	/^void Insert(char *key, char *value)  $/;"	f	class:stx::CTtree
+IsEmpty	ttree.h	/^bool IsEmpty( ) const  $/;"	f	class:stx::CTtree
+KV_SIZE	ttree.h	43;"	d
+MIN_KEY	ttree.h	46;"	d
+MallocNode	ttree.h	/^TTREENODE *MallocNode()  $/;"	f	class:stx::CTtree
+Max	ttree.h	/^int Max( int a, int b ) const  $/;"	f	class:stx::CTtree
+NODE_NUM	ttree.h	47;"	d
+NODE_SIZE	ttree.h	44;"	d
+PATH	ttree.h	48;"	d
+PMEM_LEN	ttree.h	49;"	d
+PMEM_NODE	ttree.h	/^}PMEM_NODE;$/;"	t	namespace:stx	typeref:struct:stx::_pmem_node
+PM_META	ttree.h	/^}PM_META;$/;"	t	namespace:stx	typeref:struct:stx::_pm_meta_data
+PostOrder	ttree.h	/^    PostOrder  $/;"	e	enum:stx::TraverseOrder
+PostOrderTraverse	ttree.h	/^void PostOrderTraverse(TTREENODE *pNode) const  $/;"	f	class:stx::CTtree
+PreOrder	ttree.h	/^    PreOrder,  $/;"	e	enum:stx::TraverseOrder
+PreOrderTraverse	ttree.h	/^void PreOrderTraverse(TTREENODE *pNode) const  $/;"	f	class:stx::CTtree
+STX_STX_TTREE_MULTIMAP_H_HEADER	ttree_multimap.h	2;"	d
+STX_STX_TTREE_SET_H_HEADER	ttree_set.h	2;"	d
+SingleRotateLeft	ttree.h	/^TTREENODE *SingleRotateLeft(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+SingleRotateRight	ttree.h	/^TTREENODE *SingleRotateRight(TTREENODE *pNode)  $/;"	f	class:stx::CTtree
+StdMap	speedtest.cc	/^    typedef TestClass<std::multimap<unsigned int, unsigned int> > StdMap;$/;"	t	class:TestFactory_Map	file:
+StdSet	speedtest.cc	/^    typedef TestClass<std::multiset<unsigned int> > StdSet;$/;"	t	class:TestFactory_Set	file:
+TTREENODE	ttree.h	/^} TTREENODE;  $/;"	t	namespace:stx	typeref:struct:stx::tagTTREENODE
+TestFactory_Map	speedtest.cc	/^class TestFactory_Map$/;"	c	file:
+TestFactory_Set	speedtest.cc	/^class TestFactory_Set$/;"	c	file:
+Test_Map_Find	speedtest.cc	/^    explicit Test_Map_Find(unsigned int items)$/;"	f	class:Test_Map_Find
+Test_Map_Find	speedtest.cc	/^class Test_Map_Find$/;"	c	file:
+Test_Map_Insert	speedtest.cc	/^    explicit Test_Map_Insert(unsigned int) { }$/;"	f	class:Test_Map_Insert
+Test_Map_Insert	speedtest.cc	/^class Test_Map_Insert$/;"	c	file:
+Test_Map_InsertFindDelete	speedtest.cc	/^    explicit Test_Map_InsertFindDelete(unsigned int) { }$/;"	f	class:Test_Map_InsertFindDelete
+Test_Map_InsertFindDelete	speedtest.cc	/^class Test_Map_InsertFindDelete$/;"	c	file:
+Test_Set_Find	speedtest.cc	/^    explicit Test_Set_Find(unsigned int items)$/;"	f	class:Test_Set_Find
+Test_Set_Find	speedtest.cc	/^class Test_Set_Find$/;"	c	file:
+Test_Set_Insert	speedtest.cc	/^    explicit Test_Set_Insert(unsigned int) { }$/;"	f	class:Test_Set_Insert
+Test_Set_Insert	speedtest.cc	/^class Test_Set_Insert$/;"	c	file:
+Test_Set_InsertFindDelete	speedtest.cc	/^    explicit Test_Set_InsertFindDelete(unsigned int) { }$/;"	f	class:Test_Set_InsertFindDelete
+Test_Set_InsertFindDelete	speedtest.cc	/^class Test_Set_InsertFindDelete$/;"	c	file:
+TraverseOrder	ttree.h	/^enum TraverseOrder  $/;"	g	namespace:stx
+TraverseTree	ttree.h	/^void TraverseTree(TraverseOrder order)  $/;"	f	class:stx::CTtree
+TtreeMap	speedtest.cc	/^		explicit TtreeMap(unsigned int n)$/;"	f	class:TestFactory_Map::TtreeMap
+TtreeMap	speedtest.cc	/^	class TtreeMap: public TestClass<stx::ttree_multimap<unsigned int, unsigned int, std::less<unsigned int> > >$/;"	c	class:TestFactory_Map	file:
+TtreeSet	speedtest.cc	/^		explicit TtreeSet(char*  n)$/;"	f	class:TestFactory_Set::TtreeSet
+TtreeSet	speedtest.cc	/^	class TtreeSet : public TestClass<stx::ttree_set<char*, std::less<unsigned int> > >$/;"	c	class:TestFactory_Set	file:
+UnorderedMap	speedtest.cc	/^                          unsigned int, unsigned int> > UnorderedMap;$/;"	t	class:TestFactory_Map	file:
+UnorderedSet	speedtest.cc	/^    typedef TestClass<std::tr1::unordered_multiset<unsigned int> > UnorderedSet;$/;"	t	class:TestFactory_Set	file:
+_TTREE_H_	ttree.h	21;"	d
+_earse	ttree.h	/^void _earse(TTREENODE *pNode)   $/;"	f	class:stx::CTtree
+_insert	ttree.h	/^bool _insert(TTREENODE *pNode, char *key, char *value)  $/;"	f	class:stx::CTtree
+_key_value_pair	ttree.h	/^typedef struct _key_value_pair$/;"	s	namespace:stx
+_pm_meta_data	ttree.h	/^typedef struct _pm_meta_data$/;"	s	namespace:stx
+_pmem_node	ttree.h	/^typedef struct _pmem_node$/;"	s	namespace:stx
+address	ttree.h	/^    PMEM_NODE *address[NODE_NUM];$/;"	m	struct:stx::_pm_meta_data
+allocator_type	ttree_multimap.h	/^	typedef _Alloc allocator_type;$/;"	t	class:stx::ttree_multimap
+allocator_type	ttree_set.h	/^	typedef _Alloc allocator_type;$/;"	t	class:stx::ttree_set
+bf	ttree.h	/^    char bf;                   \/\/ Balabce factor(bf = right subtree height - left subtree height)     $/;"	m	struct:stx::tagTTREENODE
+btree_range	speedtest.cc	/^class btree_range$/;"	c	file:
+btree_range	speedtest.cc	/^class btree_range<functional, Low, Low>$/;"	c	file:
+buffer	ttree_set.h	/^    char buffer[16];$/;"	m	class:stx::ttree_set
+call_testrunner	speedtest.cc	/^void TestFactory_Map<TestClass>::call_testrunner($/;"	f	class:TestFactory_Map
+call_testrunner	speedtest.cc	/^void TestFactory_Set<TestClass>::call_testrunner($/;"	f	class:TestFactory_Set
+data_type	ttree_multimap.h	/^	typedef struct empty_struct data_type;$/;"	t	class:stx::ttree_multimap	typeref:struct:stx::ttree_multimap::empty_struct
+data_type	ttree_set.h	/^	typedef struct empty_struct data_type;$/;"	t	class:stx::ttree_set	typeref:struct:stx::ttree_set::empty_struct
+debug	ttree.h	/^    static const bool debug = false;$/;"	m	class:stx::ttree_default_set_traits
+dm_meta	ttree.h	/^DM_META *dm_meta;$/;"	m	class:stx::CTtree
+dm_node_num	ttree.h	/^    unsigned long int  dm_node_num;$/;"	m	struct:stx::meta_node
+empty_struct	ttree_multimap.h	/^	struct empty_struct $/;"	s	class:stx::ttree_multimap
+empty_struct	ttree_set.h	/^	struct empty_struct $/;"	s	class:stx::ttree_set
+erase	ttree_multimap.h	/^	inline void erase(unsigned int x){$/;"	f	class:stx::ttree_multimap
+find	ttree_multimap.h	/^	inline int find(unsigned int x){$/;"	f	class:stx::ttree_multimap
+find	ttree_set.h	/^	inline int find(unsigned int x){$/;"	f	class:stx::ttree_set
+find_empty_node	ttree.h	/^char *find_empty_node(TTREENODE *pNode)$/;"	f	class:stx::CTtree
+init_alloc	ttree.h	/^char *init_alloc()$/;"	f	class:stx::CTtree
+insert	ttree_multimap.h	/^	inline void insert(const value_type& x)$/;"	f	class:stx::ttree_multimap
+insert	ttree_multimap.h	/^	inline void insert(unsigned int key, unsigned int value)$/;"	f	class:stx::ttree_multimap
+insert	ttree_set.h	/^	inline void insert(unsigned int x)$/;"	f	class:stx::ttree_set
+is_empty	ttree.h	/^    bool is_empty;$/;"	m	struct:stx::_pmem_node
+is_pmem	ttree.h	/^int is_pmem;$/;"	m	class:stx::CTtree
+item	ttree.h	/^    kv_t item[ITEM_NUM];$/;"	m	struct:stx::tagTTREENODE
+k_buff	ttree_multimap.h	/^    char k_buff[16];$/;"	m	class:stx::ttree_multimap
+key	ttree.h	/^	char key[KV_SIZE];$/;"	m	struct:stx::_key_value_pair
+key_compare	ttree_multimap.h	/^	typedef _Compare key_compare;$/;"	t	class:stx::ttree_multimap
+key_compare	ttree_set.h	/^	typedef _Compare key_compare;$/;"	t	class:stx::ttree_set
+key_type	ttree_multimap.h	/^	typedef _Key key_type;$/;"	t	class:stx::ttree_multimap
+key_type	ttree_set.h	/^	typedef _Key key_type;$/;"	t	class:stx::ttree_set
+keycompare	ttree.h	/^int keycompare(const char* key1, char* key2)  $/;"	f	class:stx::CTtree
+kv_t	ttree.h	/^}kv_t;$/;"	t	namespace:stx	typeref:struct:stx::_key_value_pair
+left	ttree.h	/^	tagTTREENODE *left;         \/\/ Left child pointer.  $/;"	m	struct:stx::tagTTREENODE
+main	speedtest.cc	/^int main()$/;"	f
+map	speedtest.cc	/^    MapType map;$/;"	m	class:Test_Map_Find	file:
+max_nodeslots	speedtest.cc	/^static const int max_nodeslots = 256;$/;"	v	file:
+maxitems	speedtest.cc	/^static const unsigned int maxitems = 1024;$/;"	v	file:
+meta_node	ttree.h	/^typedef struct meta_node$/;"	s	namespace:stx
+min_nodeslots	speedtest.cc	/^static const int min_nodeslots = 4;$/;"	v	file:
+minitems	speedtest.cc	/^static const unsigned int minitems = 64;$/;"	v	file:
+nItems	ttree.h	/^    int nItems;  \/\/ Internal node items.  $/;"	m	struct:stx::tagTTREENODE
+node_id	ttree.h	/^    int  node_id;$/;"	m	struct:stx::_pmem_node
+operator ()	speedtest.cc	/^    void operator () (std::ostream& os, unsigned int items)$/;"	f	class:btree_range
+pm_meta	ttree.h	/^PM_META *pm_meta;$/;"	m	class:stx::CTtree
+pmem_add	ttree.h	/^    char *pmem_add;$/;"	m	struct:stx::tagTTREENODE
+pmem_id	ttree.h	/^    int pmem_id;$/;"	m	struct:stx::tagTTREENODE
+pmem_memcpy	ttree.h	/^void pmem_memcpy(char* paddr,TTREENODE* srcaddr,int cc)$/;"	f	class:stx::CTtree
+pmemaddr	ttree.h	/^char* pmemaddr;$/;"	m	class:stx::CTtree
+randseed	speedtest.cc	/^static const int randseed = 3423;$/;"	v	file:
+remove	ttree.h	/^int remove(TTREENODE *pNode, char *key)  $/;"	f	class:stx::CTtree
+repeatuntil	speedtest.cc	/^unsigned int repeatuntil;$/;"	v
+right	ttree.h	/^    tagTTREENODE *right;        \/\/ Right child pointer.  $/;"	m	struct:stx::tagTTREENODE
+root	ttree.h	/^TTREENODE *root;$/;"	m	class:stx::CTtree
+run	speedtest.cc	/^    void run(unsigned int items)$/;"	f	class:Test_Map_Find
+run	speedtest.cc	/^    void run(unsigned int items)$/;"	f	class:Test_Map_Insert
+run	speedtest.cc	/^    void run(unsigned int items)$/;"	f	class:Test_Map_InsertFindDelete
+run	speedtest.cc	/^    void run(unsigned int items)$/;"	f	class:Test_Set_Find
+run	speedtest.cc	/^    void run(unsigned int items)$/;"	f	class:Test_Set_Insert
+run	speedtest.cc	/^    void run(unsigned int items)$/;"	f	class:Test_Set_InsertFindDelete
+self_type	ttree_multimap.h	/^	typedef ttree_multimap<key_type, key_compare, traits, allocator_type> self_type;$/;"	t	class:stx::ttree_multimap
+self_type	ttree_set.h	/^	typedef ttree_set<key_type, key_compare, traits, allocator_type> self_type;$/;"	t	class:stx::ttree_set
+selfverify	ttree.h	/^    static const bool selfverify = false;$/;"	m	class:stx::ttree_default_set_traits
+set	speedtest.cc	/^    SetType set;$/;"	m	class:Test_Set_Find	file:
+start_add	ttree.h	/^    char *start_add;$/;"	m	struct:stx::_pmem_node
+stx	ttree.h	/^namespace stx{$/;"	n
+stx	ttree_multimap.h	/^namespace stx {$/;"	n
+stx	ttree_set.h	/^namespace stx {$/;"	n
+tagTTREENODE	ttree.h	/^typedef struct tagTTREENODE  $/;"	s	namespace:stx
+testrunner_loop	speedtest.cc	/^void testrunner_loop(std::ostream& os, unsigned int items)$/;"	f
+timestamp	speedtest.cc	/^static inline double timestamp()$/;"	f	file:
+traits	ttree_multimap.h	/^	typedef _Traits traits;$/;"	t	class:stx::ttree_multimap
+traits	ttree_set.h	/^	typedef _Traits traits;$/;"	t	class:stx::ttree_set
+tree	ttree_multimap.h	/^	ttree_impl tree;$/;"	m	class:stx::ttree_multimap
+tree	ttree_set.h	/^	ttree_impl tree;$/;"	m	class:stx::ttree_set
+ttree_default_set_traits	ttree.h	/^class ttree_default_set_traits$/;"	c	namespace:stx
+ttree_impl	ttree_multimap.h	/^	typedef stx::CTtree ttree_impl;$/;"	t	class:stx::ttree_multimap
+ttree_impl	ttree_set.h	/^	typedef stx::CTtree ttree_impl;$/;"	t	class:stx::ttree_set
+ttree_multimap	ttree_multimap.h	/^class ttree_multimap$/;"	c	namespace:stx
+ttree_set	ttree_set.h	/^class ttree_set$/;"	c	namespace:stx
+v_buff	ttree_multimap.h	/^    char v_buff[16];$/;"	m	class:stx::ttree_multimap
+value	ttree.h	/^	char value[KV_SIZE];$/;"	m	struct:stx::_key_value_pair
+value_type	ttree_multimap.h	/^	typedef std::pair<unsigned int, unsigned int> value_type;$/;"	t	class:stx::ttree_multimap
+value_type	ttree_set.h	/^	typedef key_type value_type;$/;"	t	class:stx::ttree_set
+~CTtree	ttree.h	/^~CTtree()$/;"	f	class:stx::CTtree
