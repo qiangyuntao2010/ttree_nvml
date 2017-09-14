@@ -164,9 +164,9 @@ char *init_alloc()
         perror("pmem_map_file");
         exit(1);
     }
-    fprintf(stdout,"THE PMEMADDR START ADDRESS IS : %p \n",pmemaddr);
-    fprintf(stdout,"THE PMEM NODE SIZE IS %ld \n",sizeof(PMEM_NODE));
-    fprintf(stdout,"THE DRAM NODE SIZE IS %ld \n",sizeof(TTREENODE));
+    //fprintf(stdout,"THE PMEMADDR START ADDRESS IS : %p \n",pmemaddr);
+   // fprintf(stdout,"THE PMEM NODE SIZE IS %ld \n",sizeof(PMEM_NODE));
+   // fprintf(stdout,"THE DRAM NODE SIZE IS %ld \n",sizeof(TTREENODE));
     for(count = 0;count < NODE_NUM;count++)
     {
         pm_meta->address[count] = (PMEM_NODE*)malloc(sizeof(PMEM_NODE));
@@ -175,10 +175,10 @@ char *init_alloc()
             perror("pmem allocation error!");
             exit(1);
         }
-        fprintf(stdout,"THE PMEM_NDOE ADDRESS IS %p \n",pm_meta->address[count]->start_add);
+        //fprintf(stdout,"THE PMEM_NDOE ADDRESS IS %p \n",pm_meta->address[count]->start_add);
         pm_meta->address[count]->node_id = count;
         pm_meta->address[count]->is_empty = true;
-        fprintf(stdout,"THE FUNCTION %s : NOW THE NUMBER PM_NODE NUM IS %d \n",__func__,count);
+        //fprintf(stdout,"THE FUNCTION %s : NOW THE NUMBER PM_NODE NUM IS %d \n",__func__,count);
     }
     fprintf(stdout,"THE FUNCTON %s : THE NODE NUMBER IS %d\n",__func__,count);
     return pmemaddr;
@@ -453,7 +453,7 @@ void Insert(char *key, char *value)
     else 
     {  
         //int times = 0;
-        fprintf(stdout,"%s : THE INSERTION TIMES IS %d\n",__func__,times++);
+       // fprintf(stdout,"%s : THE INSERTION TIMES IS %d\n",__func__,times++);
         TTREENODE *pNode = root; 
        // root->parent = NULL;
         pNode = root;  

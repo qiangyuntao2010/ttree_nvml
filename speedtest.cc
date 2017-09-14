@@ -19,7 +19,7 @@
  ******************************************************************************/
 
 #include <sys/time.h>
-
+#include <stdio.h>
 #include <fstream>
 #include <iostream>
 #include <iomanip>
@@ -53,7 +53,7 @@ using namespace std;
 // *** Settings
 
 /// starting number of items to insert
-static const unsigned int minitems = 64;
+static const unsigned int minitems = 2048;
 //static const unsigned int minitems = 1024000 * 64;
 //static const unsigned int minitems = 1;
 
@@ -61,7 +61,7 @@ static const unsigned int minitems = 64;
 static const unsigned int maxitems = 1024;
 //static const unsigned int maxitems = 512000;
 
-static const int randseed = 3423;
+static const int randseed = 34;
 
 /// b+ tree slot range to test
 static const int min_nodeslots = 4;
@@ -218,9 +218,10 @@ public:
     {
         MapType map; //map is StdMap, HashMap...
 
-        srand(randseed);
+        //srand(randseed);
         for (unsigned int i = 0; i < items; i++) {
-            unsigned int r = rand();
+           // unsigned int r = rand();
+            unsigned int r = 3900;
             map.insert(std::make_pair(r, r));
         }
 
@@ -358,12 +359,16 @@ void testrunner_loop(std::ostream& os, unsigned int items)
 		//	cout << " charlie before timestamp() " << endl;
             ts1 = timestamp();
 
-            for (unsigned int totaltests = 0;
-                 totaltests <= repeatuntil; totaltests += items)
-            {
+            fprintf(stdout,"IN THE FILE %s WITH  THE FUNCTION %s : THE RUNS TIMES IS %d \n",__FILE__,__func__,runs);
+            
+            //for (unsigned int totaltests = 0;
+            //     totaltests <= repeatuntil; totaltests += items)
+           // {
+                fprintf(stdout,"ENTER THE FOR CIRCULATON!\n");
                 test.run(items);        // run timed test procedure
-                ++runs;
-            }
+             //   ++runs;
+                fprintf(stdout,"IN THE FILE %s WITH  THE FUNCTION %s : THE RUNS TIMES IS %d \n",__FILE__,__func__,runs);
+           // }
 
             ts2 = timestamp();
         
@@ -489,7 +494,7 @@ int main()
 {
 #if 0 
     {   // Set - speed test only insertion
-        std::ofstream os("speed-set-insert.txt");
+        std::ofsteam os("speed-set-insert.txt");
 
         repeatuntil = minitems;
 
