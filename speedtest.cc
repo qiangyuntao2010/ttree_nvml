@@ -53,7 +53,7 @@ using namespace std;
 // *** Settings
 
 /// starting number of items to insert
-static const unsigned int minitems = 2048;
+static const unsigned int minitems = 1024;
 //static const unsigned int minitems = 1024000 * 64;
 //static const unsigned int minitems = 1;
 
@@ -218,10 +218,12 @@ public:
     {
         MapType map; //map is StdMap, HashMap...
 
-        //srand(randseed);
+      //  srand(randseed);
+        unsigned int r = 39;
         for (unsigned int i = 0; i < items; i++) {
-           // unsigned int r = rand();
-            unsigned int r = 3900;
+            //fprintf(stdout,"%s : ENTER THE RUN CIRCULATON AND THE R VALUE IS %d\n",__func__,r);
+           // unsigned int r = rand()%10000;
+            r++;
             map.insert(std::make_pair(r, r));
         }
 

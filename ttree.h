@@ -456,7 +456,7 @@ void Insert(char *key, char *value)
        // fprintf(stdout,"%s : THE INSERTION TIMES IS %d\n",__func__,times++);
         TTREENODE *pNode = root; 
        // root->parent = NULL;
-        pNode = root;  
+     //   pNode = root;  
         bool bRet = _insert(pNode, key, value);
         if (pNode != root)  
         {   
@@ -526,6 +526,7 @@ bool _insert(TTREENODE *pNode, char *key, char *value)
             pNode->left = pLeftId; 
             pmem_memcpy(pNode->pmem_add,pNode,sizeof(TTREENODE));
             pmem_memcpy(pLeftId->pmem_add,pLeftId,sizeof(TTREENODE));
+            //return false;
         }  
         else   
         {  
@@ -593,6 +594,7 @@ bool _insert(TTREENODE *pNode, char *key, char *value)
             pNode->right = pRightId;
             pmem_memcpy(pNode->pmem_add,pNode,sizeof(TTREENODE));
             pmem_memcpy(pRightId->pmem_add,pRightId,sizeof(TTREENODE));
+           // return false;
 
         }  
         else   
